@@ -31,30 +31,38 @@ class Team{
 };
 
 
-Team& getWinner(vector<Team>::iterator start, vector<Team>::iterator end){
+vector<Team>::iterator getWinner(vector<Team>::iterator &start, vector<Team>::iterator &end){
     //if there is just two teams left return the winner
     if(start + 1 == end){
-                
-    Team * winner, *loser; 
-    if(*start < *end){ winner = &*start; loser = &*end; }
-    else{ winner = &*end; loser = &*start;}
+
+    vector<Team>::iterator winner, loser;              
+    if(*start < *end){ winner = start; loser = end; }
+    else{ winner = end; loser = start;}
     winner->addWin(); 
     cout << winner->show() << " defeats " << loser->show() << endl; 
-    return *winner;
+    return winner;
     } 
     
     //else split the list in two and get the winner of each side
     int half = (end - start) / 2; 
-    Team one = getWinner(start, end - half - 1);
-    Team two = getWinner(end - half, end);
+    auto mid1 = end - half; 
+    auto mid2 = end - half - 1; 
 
-    Team* winner,* loser; 
-    if(one < two){ winner = &one; loser = &two; }
-    else{ winner = &two; loser = &one;}
+    auto one = getWinner(start, mid2);
+    auto two = getWinner(mid1, end);
+
+
+    vector<Team>::iterator winner, loser;              
+    if(*one < *two){ 
+        winner = one; loser = two; 
+        }
+    else{ 
+        winner = two; loser = one;
+        }
     winner->addWin(); 
     cout << winner->show() << " defeats " << loser->show() << endl; 
 
-    return *winner;  
+    return winner;  
 }
 
 int main(){
@@ -73,17 +81,18 @@ int main(){
         fin >> seed; 
         teams.push_back(Team(name, region, seed)); 
     }
-   cout << "------------\n" << "Tournament:\n" << "------------" << endl;
+   cout << "------------\n" << "Tournament: \n" << "------------" << endl;
    
-   auto temp = teams.begin(); 
-   string region = temp->getRegion();
-   Team winner =  getWinner(teams.begin(), teams.end() - 1);
+   auto start = teams.begin(); 
+   auto last = teams.end() - 1; 
+   string region = start->getRegion();
+   auto winner =  getWinner(start, last);
 
-   cout << "------------\n" << "Winner:\n" << "------------" << endl;
-   cout << winner.show() << " is the winner!" << endl; 
+   cout << "------------\n" << "Winner: \n" << "------------" << endl;
+   cout << winner->show() << " is the winner!" << endl; 
 
-    cout << "------------\n" << "Stats:\n" << "------------" << endl;
+    cout << "------------\n" << "Stats: \n" << "------------" << endl;
 
-    for(Team tm : teams)
-        cout << tm.showStats() << endl; 
+    for(auto it = teams.begin(); it != teams.end(); it++ )
+        cout << it->showStats() << endl; 
 }
