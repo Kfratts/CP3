@@ -3,10 +3,9 @@
 #include <vector> 
 #include <string>
 #include <iterator>
+#include <cmath>
 
 using namespace std; 
-
-const string FILENAME = "animals.txt";  
 
 
 class Team{
@@ -65,10 +64,20 @@ vector<Team>::iterator getWinner(vector<Team>::iterator &start, vector<Team>::it
     return winner;  
 }
 
-int main(){
+int main(int argc, char *argv[]){
     ifstream fin; 
+    
+    if(argc < 2){
+        cout << "Missing command line argument (input filename)" << endl;
+        return 0;
+    } 
+
+    const string FILENAME = argv[1]; 
+    
     fin.open(FILENAME);
     vector<Team> teams; 
+
+    
     
     //read in the all the teams from the file
     while(true)
@@ -81,6 +90,15 @@ int main(){
         fin >> seed; 
         teams.push_back(Team(name, region, seed)); 
     }
+
+    int n = teams.size(); 
+    if(ceil(log2(n)) != floor(log2(n))){
+        cout << "\nFile must include a number of teams that is a power of 2" << endl; 
+        cout << "(There are " << n << " teams in file " << FILENAME << ")" << endl; 
+        return 0; 
+    }
+
+
    cout << "------------\n" << "Tournament: \n" << "------------" << endl;
    
    auto start = teams.begin(); 
