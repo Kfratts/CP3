@@ -1,0 +1,137 @@
+------------
+Tournament: 
+------------
+GeorgiaState (WEST 16) [1 wins] defeats Gonzaga (WEST 1) [0 wins]
+BoiseState (WEST 8) [1 wins] defeats Memphis (WEST 9) [0 wins]
+BoiseState (WEST 8) [2 wins] defeats GeorgiaState (WEST 16) [1 wins]
+NewMexicoState (WEST 12) [1 wins] defeats UConn (WEST 5) [0 wins]
+Arkansas (WEST 4) [1 wins] defeats Vermont (WEST 13) [0 wins]
+Arkansas (WEST 4) [2 wins] defeats NewMexicoState (WEST 12) [1 wins]
+Arkansas (WEST 4) [3 wins] defeats BoiseState (WEST 8) [2 wins]
+Alabama (WEST 6) [1 wins] defeats NotreDame (WEST 11) [0 wins]
+MontanaState (WEST 14) [1 wins] defeats TexasTech (WEST 3) [0 wins]
+Alabama (WEST 6) [2 wins] defeats MontanaState (WEST 14) [1 wins]
+Davidson (WEST 10) [1 wins] defeats MichiganState (WEST 7) [0 wins]
+CSUFullerton (WEST 15) [1 wins] defeats Duke (WEST 2) [0 wins]
+CSUFullerton (WEST 15) [2 wins] defeats Davidson (WEST 10) [1 wins]
+Alabama (WEST 6) [3 wins] defeats CSUFullerton (WEST 15) [2 wins]
+Alabama (WEST 6) [4 wins] defeats Arkansas (WEST 4) [3 wins]
+Baylor (EAST 1) [1 wins] defeats NorfolkState (EAST 16) [0 wins]
+Marquette (EAST 9) [1 wins] defeats NorthCarolina (EAST 8) [0 wins]
+Baylor (EAST 1) [2 wins] defeats Marquette (EAST 9) [1 wins]
+Indiana (EAST 12) [1 wins] defeats SaintMary's (EAST 5) [0 wins]
+Akron (EAST 13) [1 wins] defeats UCLA (EAST 4) [0 wins]
+Akron (EAST 13) [2 wins] defeats Indiana (EAST 12) [1 wins]
+Akron (EAST 13) [3 wins] defeats Baylor (EAST 1) [2 wins]
+Texas (EAST 6) [1 wins] defeats VirginiaTech (EAST 11) [0 wins]
+Purdue (EAST 3) [1 wins] defeats Yale (EAST 14) [0 wins]
+Purdue (EAST 3) [2 wins] defeats Texas (EAST 6) [1 wins]
+MurrayState (EAST 7) [1 wins] defeats SanFrancisco (EAST 10) [0 wins]
+Kentucky (EAST 2) [1 wins] defeats SaintPeter's (EAST 15) [0 wins]
+Kentucky (EAST 2) [2 wins] defeats MurrayState (EAST 7) [1 wins]
+Kentucky (EAST 2) [3 wins] defeats Purdue (EAST 3) [2 wins]
+Akron (EAST 13) [4 wins] defeats Kentucky (EAST 2) [3 wins]
+Akron (EAST 13) [5 wins] defeats Alabama (WEST 6) [4 wins]
+Arizona (SOUTH 1) [1 wins] defeats WrightState (SOUTH 16) [0 wins]
+SetonHall (SOUTH 8) [1 wins] defeats TCU (SOUTH 9) [0 wins]
+Arizona (SOUTH 1) [2 wins] defeats SetonHall (SOUTH 8) [1 wins]
+Houston (SOUTH 5) [1 wins] defeats UAB (SOUTH 12) [0 wins]
+Chattanooga (SOUTH 13) [1 wins] defeats Illinois (SOUTH 4) [0 wins]
+Chattanooga (SOUTH 13) [2 wins] defeats Houston (SOUTH 5) [1 wins]
+Arizona (SOUTH 1) [3 wins] defeats Chattanooga (SOUTH 13) [2 wins]
+ColoradoState (SOUTH 6) [1 wins] defeats Michigan (SOUTH 11) [0 wins]
+Longwood (SOUTH 14) [1 wins] defeats Tennessee (SOUTH 3) [0 wins]
+ColoradoState (SOUTH 6) [2 wins] defeats Longwood (SOUTH 14) [1 wins]
+LoyolaChicago (SOUTH 10) [1 wins] defeats OhioState (SOUTH 7) [0 wins]
+Delaware (SOUTH 15) [1 wins] defeats Villanova (SOUTH 2) [0 wins]
+Delaware (SOUTH 15) [2 wins] defeats LoyolaChicago (SOUTH 10) [1 wins]
+ColoradoState (SOUTH 6) [3 wins] defeats Delaware (SOUTH 15) [2 wins]
+Arizona (SOUTH 1) [4 wins] defeats ColoradoState (SOUTH 6) [3 wins]
+Kansas (MIDWEST 1) [1 wins] defeats TexasSouthern (MIDWEST 16) [0 wins]
+Creighton (MIDWEST 9) [1 wins] defeats SanDiegoState (MIDWEST 8) [0 wins]
+Creighton (MIDWEST 9) [2 wins] defeats Kansas (MIDWEST 1) [1 wins]
+Iowa (MIDWEST 5) [1 wins] defeats Richmond (MIDWEST 12) [0 wins]
+Providence (MIDWEST 4) [1 wins] defeats SouthDakotaState (MIDWEST 13) [0 wins]
+Iowa (MIDWEST 5) [2 wins] defeats Providence (MIDWEST 4) [1 wins]
+Creighton (MIDWEST 9) [3 wins] defeats Iowa (MIDWEST 5) [2 wins]
+IowaState (MIDWEST 11) [1 wins] defeats LSU (MIDWEST 6) [0 wins]
+Colgate (MIDWEST 14) [1 wins] defeats Wisconsin (MIDWEST 3) [0 wins]
+Colgate (MIDWEST 14) [2 wins] defeats IowaState (MIDWEST 11) [1 wins]
+Miami (MIDWEST 10) [1 wins] defeats USC (MIDWEST 7) [0 wins]
+Auburn (MIDWEST 2) [1 wins] defeats JacksonvilleState (MIDWEST 15) [0 wins]
+Auburn (MIDWEST 2) [2 wins] defeats Miami (MIDWEST 10) [1 wins]
+Auburn (MIDWEST 2) [3 wins] defeats Colgate (MIDWEST 14) [2 wins]
+Auburn (MIDWEST 2) [4 wins] defeats Creighton (MIDWEST 9) [3 wins]
+Arizona (SOUTH 1) [5 wins] defeats Auburn (MIDWEST 2) [4 wins]
+Akron (EAST 13) [6 wins] defeats Arizona (SOUTH 1) [5 wins]
+------------
+Winner: 
+------------
+Akron (EAST 13) [6 wins] is the winner!
+------------
+Stats: 
+------------
+Gonzaga (WEST 1) - 0 wins
+GeorgiaState (WEST 16) - 1 wins
+BoiseState (WEST 8) - 2 wins
+Memphis (WEST 9) - 0 wins
+UConn (WEST 5) - 0 wins
+NewMexicoState (WEST 12) - 1 wins
+Arkansas (WEST 4) - 3 wins
+Vermont (WEST 13) - 0 wins
+Alabama (WEST 6) - 4 wins
+NotreDame (WEST 11) - 0 wins
+TexasTech (WEST 3) - 0 wins
+MontanaState (WEST 14) - 1 wins
+MichiganState (WEST 7) - 0 wins
+Davidson (WEST 10) - 1 wins
+Duke (WEST 2) - 0 wins
+CSUFullerton (WEST 15) - 2 wins
+Baylor (EAST 1) - 2 wins
+NorfolkState (EAST 16) - 0 wins
+NorthCarolina (EAST 8) - 0 wins
+Marquette (EAST 9) - 1 wins
+SaintMary's (EAST 5) - 0 wins
+Indiana (EAST 12) - 1 wins
+UCLA (EAST 4) - 0 wins
+Akron (EAST 13) - 6 wins
+Texas (EAST 6) - 1 wins
+VirginiaTech (EAST 11) - 0 wins
+Purdue (EAST 3) - 2 wins
+Yale (EAST 14) - 0 wins
+MurrayState (EAST 7) - 1 wins
+SanFrancisco (EAST 10) - 0 wins
+Kentucky (EAST 2) - 3 wins
+SaintPeter's (EAST 15) - 0 wins
+Arizona (SOUTH 1) - 5 wins
+WrightState (SOUTH 16) - 0 wins
+SetonHall (SOUTH 8) - 1 wins
+TCU (SOUTH 9) - 0 wins
+Houston (SOUTH 5) - 1 wins
+UAB (SOUTH 12) - 0 wins
+Illinois (SOUTH 4) - 0 wins
+Chattanooga (SOUTH 13) - 2 wins
+ColoradoState (SOUTH 6) - 3 wins
+Michigan (SOUTH 11) - 0 wins
+Tennessee (SOUTH 3) - 0 wins
+Longwood (SOUTH 14) - 1 wins
+OhioState (SOUTH 7) - 0 wins
+LoyolaChicago (SOUTH 10) - 1 wins
+Villanova (SOUTH 2) - 0 wins
+Delaware (SOUTH 15) - 2 wins
+Kansas (MIDWEST 1) - 1 wins
+TexasSouthern (MIDWEST 16) - 0 wins
+SanDiegoState (MIDWEST 8) - 0 wins
+Creighton (MIDWEST 9) - 3 wins
+Iowa (MIDWEST 5) - 2 wins
+Richmond (MIDWEST 12) - 0 wins
+Providence (MIDWEST 4) - 1 wins
+SouthDakotaState (MIDWEST 13) - 0 wins
+LSU (MIDWEST 6) - 0 wins
+IowaState (MIDWEST 11) - 1 wins
+Wisconsin (MIDWEST 3) - 0 wins
+Colgate (MIDWEST 14) - 2 wins
+USC (MIDWEST 7) - 0 wins
+Miami (MIDWEST 10) - 1 wins
+Auburn (MIDWEST 2) - 4 wins
+JacksonvilleState (MIDWEST 15) - 0 wins
